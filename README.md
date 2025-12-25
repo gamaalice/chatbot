@@ -1,7 +1,7 @@
 # Virtual Assistant (WhatsApp Bot)
 
 ## Project Description
-The EaseBot is an automated WhatsApp virtual assistant developed for Ease Engenharia.
+The Chatbot is an automated WhatsApp virtual assistant developed for Ease Engenharia.
 It provides fast, consistent, and professional customer service by presenting information about the company, its services, advantages, and contact options.
 The bot also records all interactions as leads in a local SQLite database and can optionally integrate with external CRMs such as HubSpot, Pipedrive, Notion, or Airtable.
 
@@ -40,10 +40,8 @@ All responses are stored in a centralized object, making the system easy to main
 
 ## How to Run the Project
 ### 1. Install Dependencies
-Código
 npm install
 ### 2. Start the Bot
-Código
 node chatbot.js
 ### 3. Connect to WhatsApp
 - A QR Code will appear in the terminal
